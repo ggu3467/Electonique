@@ -1,0 +1,331 @@
+{
+  "uuid": "bf6de16939ca9edae5713c095adce867",
+  "path": "Offline/ControlMoteur_ESP32",
+  "name": "ControlMoteur_ESP32",
+  "content": "",
+  "created_at": "2021-05-30 15:02:19",
+  "updated_at": "2021-06-06 15:37:03",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ddec4d9ae1cff93d8ecdf79f5e36f252",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "16a2af6f75d64d7fbcbc87a6c33f5b49": 1,
+        "d2e974bfbab048d7b7cf3a9da9b77af7": 1,
+        "28a8cde37eb041c7bc8f6d6fc615a2ea": 4,
+        "29b86dd421794b8b84dd8b62ded9170d": 1,
+        "043767359bc0416ea0019c9eee140aca": 2,
+        "7f9c6d4d878346f99916c580bc848141": 1,
+        "a7a0e276dadd4f8097422d2afc2e1b9c": 2,
+        "f5b1d9403e49471cab43bc5a1bec336f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "LED-0805_B",
+          1,
+          "LED0805_BLUE",
+          "LED1",
+          {
+            "BOM_Manufacturer": "方舟 ARKLED",
+            "BOM_Manufacturer Part": "D-B080508B1-KS2",
+            "BOM_Supplier Part": "C108412",
+            "BOM_Supplier": "",
+            "puuid": "4799ae47897d474280a6e45a4d12ef3d",
+            "uuid": "7f9c6d4d878346f99916c580bc848141"
+          }
+        ],
+        [
+          "4N25S",
+          1,
+          "OPTO-SMD-6_L8.5-W6.5-P2.54-LS9.2-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "LITEON",
+            "BOM_Manufacturer Part": "4N25S",
+            "BOM_Supplier Part": "C143074",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "de1ed2d14a9040e08c9a9e5e11a90eaf",
+            "uuid": "16a2af6f75d64d7fbcbc87a6c33f5b49"
+          }
+        ],
+        [
+          "1k",
+          3,
+          "R1210",
+          "R1,R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "c9096ef99b8540f5a8207dff5e428311",
+            "uuid": "28a8cde37eb041c7bc8f6d6fc615a2ea"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1210",
+          "R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "c9096ef99b8540f5a8207dff5e428311",
+            "uuid": "28a8cde37eb041c7bc8f6d6fc615a2ea"
+          }
+        ],
+        [
+          "7805(SOT-89)",
+          1,
+          "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CJ",
+            "BOM_Manufacturer Part": "CJ78L05",
+            "BOM_Supplier Part": "C2079",
+            "BOM_Paste Type": "expand",
+            "puuid": "8d5c9191afac4835a6971bb1719d64f9",
+            "uuid": "29b86dd421794b8b84dd8b62ded9170d"
+          }
+        ],
+        [
+          "PINHD-1X8",
+          2,
+          "1X08-LOCK",
+          "JP1,JP2",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "C492407",
+            "BOM_Manufacturer": "",
+            "puuid": "e45716e288b943cc80e648ebf6db6162",
+            "uuid": "043767359bc0416ea0019c9eee140aca"
+          }
+        ],
+        [
+          "1u",
+          1,
+          "CASE-A_3216",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "a7a0e276dadd4f8097422d2afc2e1b9c"
+          }
+        ],
+        [
+          "220nF",
+          1,
+          "CASE-A_3216",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "a7a0e276dadd4f8097422d2afc2e1b9c"
+          }
+        ],
+        [
+          "BD679A",
+          1,
+          "SOT-32_L7.6-W2.7-P2.29-R",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2760771",
+            "BOM_Manufacturer": "ST(意法半导体)",
+            "BOM_Manufacturer Part": "BD679A",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "05885f425b034140bbb0d2fe0993df97",
+            "uuid": "d2e974bfbab048d7b7cf3a9da9b77af7"
+          }
+        ],
+        [
+          "MotorCNX",
+          1,
+          "HDR-M-2.54_1X4",
+          "J1",
+          {
+            "BOM_Supplier Part": "C124378",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ]
+      ],
+      "updateTime": 1622976584,
+      "createTime": 1622379739,
+      "histories": [],
+      "created_at": "2021-05-30 15:02:19",
+      "updated_at": "2021-06-06 12:49:44"
+    },
+    {
+      "uuid": "2afde4e9dfffd5960f64a05fdfa7c5cc",
+      "puuid": "bf6de16939ca9edae5713c095adce867",
+      "title": "PCB_ControlMoteur_ESP32",
+      "filename": "PCB_ControlMoteur_ESP32.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c9096ef99b8540f5a8207dff5e428311": 2,
+        "8d5c9191afac4835a6971bb1719d64f9": 1,
+        "e45716e288b943cc80e648ebf6db6162": 2,
+        "05885f425b034140bbb0d2fe0993df97": 1,
+        "de1ed2d14a9040e08c9a9e5e11a90eaf": 1
+      },
+      "BOM": [],
+      "updateTime": 1622892362,
+      "createTime": 1622891963,
+      "histories": [],
+      "created_at": "2021-06-05 13:19:23",
+      "updated_at": "2021-06-05 13:26:02"
+    },
+    {
+      "uuid": "2d45eeb187d7f756587b29aa921347de",
+      "puuid": "bf6de16939ca9edae5713c095adce867",
+      "title": "PCB_ControlMoteur_ESP32_2",
+      "filename": "PCB_ControlMoteur_ESP32_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "de1ed2d14a9040e08c9a9e5e11a90eaf": 1,
+        "c9096ef99b8540f5a8207dff5e428311": 2,
+        "8d5c9191afac4835a6971bb1719d64f9": 1,
+        "e45716e288b943cc80e648ebf6db6162": 2,
+        "05885f425b034140bbb0d2fe0993df97": 1
+      },
+      "BOM": [],
+      "updateTime": 1622896700,
+      "createTime": 1622896652,
+      "histories": [],
+      "created_at": "2021-06-05 14:37:32",
+      "updated_at": "2021-06-05 14:38:20"
+    },
+    {
+      "uuid": "64651fe5be8eaa69edf4607704aea248",
+      "puuid": "bf6de16939ca9edae5713c095adce867",
+      "title": "PCB_ControlMoteur_ESP32_4",
+      "filename": "PCB_ControlMoteur_ESP32_4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4799ae47897d474280a6e45a4d12ef3d": 1,
+        "de1ed2d14a9040e08c9a9e5e11a90eaf": 1,
+        "c9096ef99b8540f5a8207dff5e428311": 4,
+        "8d5c9191afac4835a6971bb1719d64f9": 1,
+        "e45716e288b943cc80e648ebf6db6162": 2,
+        "05885f425b034140bbb0d2fe0993df97": 1
+      },
+      "BOM": [],
+      "updateTime": 1622897750,
+      "createTime": 1622897750,
+      "histories": [],
+      "created_at": "2021-06-05 14:55:50",
+      "updated_at": "2021-06-05 14:55:50"
+    },
+    {
+      "uuid": "0f8cd17193054ac5379ea888fd09bc51",
+      "puuid": "bf6de16939ca9edae5713c095adce867",
+      "title": "PCB_ControlMoteur_ESP32_5",
+      "filename": "PCB_ControlMoteur_ESP32_5.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4799ae47897d474280a6e45a4d12ef3d": 1,
+        "de1ed2d14a9040e08c9a9e5e11a90eaf": 1,
+        "c9096ef99b8540f5a8207dff5e428311": 4,
+        "8d5c9191afac4835a6971bb1719d64f9": 1,
+        "e45716e288b943cc80e648ebf6db6162": 2,
+        "05885f425b034140bbb0d2fe0993df97": 1
+      },
+      "BOM": [],
+      "updateTime": 1622898643,
+      "createTime": 1622898151,
+      "histories": [],
+      "created_at": "2021-06-05 15:02:31",
+      "updated_at": "2021-06-05 15:10:43"
+    },
+    {
+      "uuid": "1e4d9d5cd26b73581f7d26e3d1b6797f",
+      "puuid": "bf6de16939ca9edae5713c095adce867",
+      "title": "PCB_ControlMoteur_ESP32_6",
+      "filename": "PCB_ControlMoteur_ESP32_6.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4799ae47897d474280a6e45a4d12ef3d": 1,
+        "de1ed2d14a9040e08c9a9e5e11a90eaf": 1,
+        "8d5c9191afac4835a6971bb1719d64f9": 1,
+        "e45716e288b943cc80e648ebf6db6162": 2,
+        "05885f425b034140bbb0d2fe0993df97": 1,
+        "c9096ef99b8540f5a8207dff5e428311": 4
+      },
+      "BOM": [],
+      "updateTime": 1622901090,
+      "createTime": 1622900922,
+      "histories": [],
+      "created_at": "2021-06-05 15:48:42",
+      "updated_at": "2021-06-05 15:51:30"
+    },
+    {
+      "uuid": "83c39d61c059049179ff44808c2c77f7",
+      "puuid": "bf6de16939ca9edae5713c095adce867",
+      "title": "PCB_ControlMoteur_ESP32_7",
+      "filename": "PCB_ControlMoteur_ESP32_7.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ce25118ef0b041b8a773e71ca28ae65d": 2,
+        "4799ae47897d474280a6e45a4d12ef3d": 1,
+        "de1ed2d14a9040e08c9a9e5e11a90eaf": 1,
+        "8d5c9191afac4835a6971bb1719d64f9": 1,
+        "05885f425b034140bbb0d2fe0993df97": 1,
+        "e45716e288b943cc80e648ebf6db6162": 2,
+        "282f7786cb6144d097ae00194c3e3fb3": 1,
+        "c9096ef99b8540f5a8207dff5e428311": 4
+      },
+      "BOM": [],
+      "updateTime": 1622986623,
+      "createTime": 1622969718,
+      "histories": [],
+      "created_at": "2021-06-06 10:55:18",
+      "updated_at": "2021-06-06 15:37:03"
+    }
+  ],
+  "sort": [],
+  "title": "ControlMoteur_ESP32",
+  "foldername": "ControlMoteur_ESP32",
+  "schfilename": "ControlMoteur_ESP32.json",
+  "schfilemtime": 1622976584991
+}
